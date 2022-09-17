@@ -9,8 +9,10 @@ public class dataTypes {
         System.out.println(sayi);
 
         char sayi2 = 'A';
+        System.out.println(sayi2);
 
         boolean dogruMu = true;
+        System.out.println(dogruMu);
     }
 
 }
