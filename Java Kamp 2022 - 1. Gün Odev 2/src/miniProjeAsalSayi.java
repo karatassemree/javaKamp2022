@@ -1,4 +1,4 @@
-public class miniProjeAsalSayi {
+public class MiniProjeAsalSayi {
     public static void main(String[] args) {
         // Asal sayı bulma uygulaması demo
         int number = 25;
