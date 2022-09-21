@@ -1,4 +1,4 @@
-public class stringsDemo {
+public class StringsDemo {
     public static void main(String[] args) {
 
         // string ler karakter dizisidir

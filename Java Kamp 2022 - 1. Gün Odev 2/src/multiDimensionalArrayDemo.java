@@ -1,4 +1,4 @@
-public class multiDimensionalArrayDemo {
+public class MultiDimensionalArrayDemo {
     public static void main(String[] args) {
 
         // çok boyutlu diziler
@@ -18,7 +18,7 @@ public class multiDimensionalArrayDemo {
             System.out.println("****************");
             for (int j = 0; j <= 2; j++) {
 
-                //Sehirler için sehirler[0][0],sehiler[0][1] gibi
+                // Sehirler için sehirler[0][0],sehiler[0][1] gibi
                 System.out.println(sehirler[i][j]);
             }
         }

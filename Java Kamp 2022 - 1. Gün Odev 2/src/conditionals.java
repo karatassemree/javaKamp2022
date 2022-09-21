@@ -1,4 +1,4 @@
-public class conditionals {
+public class Conditionals {
     public static void main(String[] args) {
 
         int sayi = 21;

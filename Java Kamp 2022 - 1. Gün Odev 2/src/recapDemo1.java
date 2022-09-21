@@ -1,4 +1,4 @@
-public class recapDemo1 {
+public class RecapDemo1 {
     public static void main(String[] args) {
 
         int sayi1 = 12;
