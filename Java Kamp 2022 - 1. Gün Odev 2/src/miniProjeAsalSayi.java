@@ -3,7 +3,7 @@ public class MiniProjeAsalSayi {
         // Asal sayı bulma uygulaması demo
         int number = 3;
         int remainder = number % 2;
-        //System.out.println(remainder);
+        System.out.println(remainder);
 
         // kendi basit cözümüm
         // bulamadım :(
