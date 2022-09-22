@@ -1,25 +1,35 @@
 public class MiniProjeAsalSayi {
     public static void main(String[] args) {
         // Asal sayı bulma uygulaması demo
-        int number = 25;
+        int number = 3;
         int remainder = number % 2;
-        System.out.println(remainder);
+        //System.out.println(remainder);
 
         // kendi basit cözümüm
-        if (number % 2 == 1) {
-            if (number / number == 1) {
-                System.out.println("asal");
-            } else {
-                System.out.println("asal değil");
-            }
-        } else {
-            System.out.println("asal değil");
-        }
+        // bulamadım :(
 
         // hoca cozum
-        boolean isPrime = false;
+        boolean isPrime = true;
+
+        if (number == 1) {
+            System.out.println("Sayı asal değildir");
+            return;
+        }
+        if (number < 1) {
+            System.out.println("Geçersiz sayı");
+            return;
+        }
+
         for (int i = 2; i < number; i++) {
-            //
+            if (number % i == 0) {
+                isPrime = false;
+            }
+        }
+
+        if (isPrime) {
+            System.out.println("Sayı asaldır");
+        } else {
+            System.out.println("Sayı asal değildir.");
         }
     }
 }
